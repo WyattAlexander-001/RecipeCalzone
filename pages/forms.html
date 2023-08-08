@@ -13,7 +13,7 @@
     <!--input id = id name -->
     <form method="POST" action="/tacos">
         <p> <label for="username">Enter A UserName</label>
-            <input id="username" type="text" placeholder="Type YOUR USERNAME">
+            <input id="username" type="text" placeholder="Type YOUR USERNAME" name="username">
         </p>
 
         <p>
@@ -22,12 +22,13 @@
         </p>
         <p>
             <label for="color">Favorite Color:</label>
-            <input id="color" type="color">
+            <input id="color" type="color" name="color">
         </p>
         <p>
             <label for="age">Age</label>
             <input id="age" type="number" placeholder="0">
         </p>
+        <button type="submit">Submit</button><!--Will look for /tacos-->
     </form>
 
 </body>
