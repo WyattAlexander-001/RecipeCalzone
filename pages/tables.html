@@ -10,34 +10,38 @@
 <body>
     <!--Best practice is for Tabular data, not for layout!-->
     <table>
-        <tr>
-            <th>Col 1</th>
-            <th>Col 2</th>
-            <th>Col 3</th>
-            <th>Col 4</th>
-            <th>Col 5</th>
-        </tr>
-        <tr>
-            <td>Data 1</td>
-            <td>Data 1</td>
-            <td>Data 1</td>
-            <td>Data 1</td>
-            <td>Data 1</td>
-        </tr>
-        <tr>
-            <td>Data 2</td>
-            <td>Data 2</td>
-            <td>Data 2</td>
-            <td>Data 2</td>
-            <td>Data 2</td>
-        </tr>
-        <tr>
-            <td>Data 3</td>
-            <td>Data 3</td>
-            <td>Data 3</td>
-            <td>Data 3</td>
-            <td>Data 3</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Col 1</th>
+                <th>Col 2</th>
+                <th>Col 3</th>
+                <th>Col 4</th>
+                <th>Col 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 1</td>
+                <td>Data 1</td>
+                <td>Data 1</td>
+                <td>Data 1</td>
+            </tr>
+            <tr>
+                <td>Data 2</td>
+                <td>Data 2</td>
+                <td>Data 2</td>
+                <td>Data 2</td>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td>Data 3</td>
+                <td>Data 3</td>
+                <td>Data 3</td>
+                <td>Data 3</td>
+                <td>Data 3</td>
+            </tr>
+        </tbody>
     </table>
     <hr>
     <!--This Will make Your Columns-->
@@ -79,6 +83,43 @@
         </tr>
     </table>
     <hr>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Animal</th>
+                <th colspan="2">Average Mass</th>
+                <th rowspan="2">Favorite Food</th>
+                <th>Color</th>
+            </tr>
+            <tr>
+                <th>Kg</th>
+                <th>lbs</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cheetah</td>
+                <td>700</td>
+                <td>350</td>
+                <td>Gazelle</td>
+                <td>Yellow</td>
+            </tr>
+            <tr>
+                <td>Data 2</td>
+                <td>Data 2</td>
+                <td>Data 2</td>
+                <td>Data 2</td>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td>Data 3</td>
+                <td>Data 3</td>
+                <td>Data 3</td>
+                <td>Data 3</td>
+                <td>Data 3</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
